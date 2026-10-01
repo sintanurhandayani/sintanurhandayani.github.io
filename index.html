@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fashion Vibes</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5f8;
+            color: #392631;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #d63384, #8e4585);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 45px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #432638;
+            text-align: center;
+            padding: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffb6d2;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        article {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+        }
+
+        article h2 {
+            color: #c2185b;
+            margin-top: 0;
+        }
+
+        .label {
+            display: inline-block;
+            background-color: #f8bbd0;
+            color: #7b1b4c;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .fashion-icon {
+            text-align: center;
+            font-size: 60px;
+            background-color: #fce4ec;
+            padding: 18px;
+            border-radius: 12px;
+            margin: 15px 0;
+        }
+
+        .business-box {
+            background-color: #fff0f5;
+            border-left: 6px solid #d63384;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #bbb;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #c2185b;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: #8e1745;
+        }
+
+        footer {
+            background-color: #432638;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+
+            main {
+                width: 94%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fashion Vibes</h1>
+        <p>Style santai untuk tampil percaya diri</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#artikel">Artikel</a>
+        <a href="#bisnis">Bisnis</a>
+        <a href="#komentar">Komentar</a>
+    </nav>
+
+    <main>
+
+        <section id="tentang">
+            <article>
+                <h2>Tentang Blog Ini</h2>
+                <p>
+                    Fashion Vibes adalah blog yang membahas fashion,
+                    gaya berpakaian, cara memadukan warna, dan aksesori.
+                </p>
+
+                <p>
+                    Blog ini dibuat untuk membantu pembaca menemukan inspirasi
+                    outfit yang sederhana, nyaman, dan menarik.
+                </p>
+            </article>
+        </section>
+
+        <section id="artikel">
+
+            <article>
+                <h2>Tips Memilih Outfit Sehari-hari</h2>
+                <span class="label">Label: Outfit Harian</span>
+
+                <div class="fashion-icon">👕</div>
+
+                <p>
+                    Untuk outfit sehari-hari, pilihlah pakaian yang nyaman
+                    dan sesuai dengan aktivitas. Kaos, celana jeans, dan
+                    sneakers dapat menjadi pilihan yang sederhana.
+                </p>
+
+                <p>
+                    Gunakan pakaian dengan ukuran yang sesuai agar tetap
+                    nyaman dan terlihat rapi.
+                </p>
+            </article>
+
+            <article>
+                <h2>Mengenal Fashion Streetwear</h2>
+                <span class="label">Label: Streetwear</span>
+
+                <div class="fashion-icon">🧢</div>
+
+                <p>
+                    Streetwear adalah gaya berpakaian yang terinspirasi dari
+                    budaya jalanan. Gaya ini biasanya menggunakan kaos,
+                    hoodie, celana longgar, topi, dan sneakers.
+                </p>
+
+                <p>
+                    Streetwear cocok untuk orang yang ingin tampil santai
+                    tetapi tetap terlihat modern.
+                </p>
+            </article>
+
+            <article>
+                <h2>Cara Memadukan Warna Pakaian</h2>
+                <span class="label">Label: Tips Fashion</span>
+
+                <div class="fashion-icon">🎨</div>
+
+                <p>
+                    Agar outfit terlihat menarik, gunakan warna yang saling
+                    cocok. Warna netral seperti hitam, putih, abu-abu,
+                    dan krem mudah dipadukan dengan warna lain.
+                </p>
+
+                <p>
+                    Jangan menggunakan terlalu banyak warna dalam satu outfit
+                    agar penampilan tetap terlihat rapi.
+                </p>
+            </article>
+
+            <article>
+                <h2>Aksesori untuk Melengkapi Outfit</h2>
+                <span class="label">Label: Aksesori</span>
+
+                <div class="fashion-icon">👜</div>
+
+                <p>
+                    Aksesori seperti jam tangan, tas, topi, gelang,
+                    dan kacamata dapat membuat outfit terlihat lebih menarik.
+                </p>
+
+                <p>
+                    Pilih aksesori yang sesuai dengan warna dan gaya pakaian
+                    agar penampilan terlihat seimbang.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="bisnis">
+            <article class="business-box">
+                <h2>Manfaat Blog untuk Bisnis Fashion</h2>
+
+                <p>
+                    Blog ini dapat membantu toko pakaian, butik, toko sepatu,
+                    dan penjual aksesori untuk memperkenalkan produknya
+                    kepada calon pelanggan.
+                </p>
+
+                <p>
+                    Bisnis dapat menampilkan foto produk, harga, ukuran,
+                    warna, promosi, lokasi toko, dan link pembelian.
+                </p>
+
+                <h3>Tools yang Berguna untuk Bisnis</h3>
+
+                <ul>
+                    <li>
+                        <strong>Menu navigasi:</strong>
+                        membantu pengunjung menemukan kategori produk.
+                    </li>
+
+                    <li>
+                        <strong>Foto produk:</strong>
+                        menampilkan pakaian dan aksesori dengan lebih menarik.
+                    </li>
+
+                    <li>
+                        <strong>Link toko online:</strong>
+                        mengarahkan pelanggan ke tempat pembelian.
+                    </li>
+
+                    <li>
+                        <strong>Formulir kontak:</strong>
+                        memudahkan pelanggan bertanya kepada penjual.
+                    </li>
+
+                    <li>
+                        <strong>Label artikel:</strong>
+                        mengelompokkan tulisan berdasarkan topik fashion.
+                    </li>
+
+                    <li>
+                        <strong>Kolom komentar:</strong>
+                        memungkinkan pelanggan memberikan pendapat.
+                    </li>
+
+                    <li>
+                        <strong>Statistik pengunjung:</strong>
+                        membantu bisnis mengetahui jumlah orang yang
+                        mengunjungi blog.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="komentar">
+            <article>
+                <h2>Kolom Komentar</h2>
+
+                <p>
+                    Tulis pendapat kamu tentang fashion.
+                </p>
+
+                <form onsubmit="kirimKomentar(event)">
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" required>
+
+                    <br><br>
+
+                    <label for="komentar">Komentar:</label><br>
+                    <textarea id="komentar" rows="5" required></textarea>
+
+                    <br><br>
+
+                    <button type="submit">Kirim Komentar</button>
+                </form>
+
+                <p id="pesanKomentar"></p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Fashion Vibes</p>
+        <p>Dibuat untuk Tugas 4-10</p>
+        <p>Nama: GANTI DENGAN NAMA KAMU</p>
+    </footer>
+
+    <script>
+        function kirimKomentar(event) {
+            event.preventDefault();
+
+            const nama = document.getElementById("nama").value;
+            const komentar = document.getElementById("komentar").value;
+            const pesan = document.getElementById("pesanKomentar");
+
+            pesan.innerHTML =
+                "Terima kasih, " + nama +
+                "! Komentar kamu sudah ditulis.";
+
+            pesan.style.color = "#c2185b";
+            pesan.style.fontWeight = "bold";
+        }
+    </script>
+
+</body>
+</html>
